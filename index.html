@@ -1,0 +1,48 @@
+<!--https://ibb.co/Lg4KQ0d-->
+  <head>
+        <meta charset="UTF-8">
+        <title>Registration Form</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+      <header>
+        <img src="https://i.ibb.co/z2Kd8mV/Add-Text-05-18-01-25-26.png" ait="logotype">
+        <a href="#survey-form" >Замовити</a>
+      </header>
+      <section>
+        <img align="right" src="https://t1.unipage.net/src/cs0065.png" alt="fotograf">
+        <h1 id="title">Титаренко Устим</h1>
+        </section>
+        <p id="description">Устим Титаренко — талановитий та амбітний фотограф із глибоким розумінням своєї справи. Завдяки винятковому творчому підходу та аналітичному мисленню, він успішно реалізує складні проекти, вносячи інноваційні рішення та піднімаючи планку якості на новий рівень</p>
+      <form id="survey-form">
+        <h2>Замовити фотосесію</h2>
+        <label for="name" id="name-label">Ім'я <input id="name" placeholder="Введіть ваше Ім'я" required></label>
+        <label for="email" id="email-label">Електрона адреса <input id="email" placeholder="Example@gmail.com" type="email" required></label>
+        <label for="number" id="number-label">Вік <input id="number" placeholder="16" type="number" min="13" max="99" required></label>
+      <label>
+      <h3>Оберіть локацію фотосесії:</h3>
+      <select id="dropdown">
+        <option>
+          На природі
+        </option>
+        <option>
+          У місті
+        </option>
+        <option>
+          У студії
+        </option>
+        <option>
+         Інше
+        </option>
+      </select>
+      </label>
+      <label for="radio-1"><input type="radio" id="radio-1" name="radio" value="cash"> Оплата Готівкою</label>
+      <label for="radio-2"><input type="radio" id="radio-2" name="radio" value="card"> Оплата Картою</label>
+      <h3>Оберіть додаткові матеріали:</h3>
+      <label for="check-1"><input type="checkbox" id="check-1" value="1"> Костюми </label>
+      <label for="check-2"><input type="checkbox" id="check-2" value="2"> Спеціальні ефекти</label>
+      <label>Коментар: <textarea></textarea></label>
+      <button id='submit' type='submit'>Надіслати</button>
+      </form>
+    </body>
+</html>
