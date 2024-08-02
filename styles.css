@@ -1,0 +1,58 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    background:#EBBB60;
+    color:#3E372A;
+    min-width:250px;
+}
+section{
+    padding:0 20px;
+}
+section img{
+    width:40vw;
+    height:200px;
+    object-fit:cover;
+}
+#title{
+    padding:80px 10px;
+    overflow-wrap: break-word;
+}
+#description{
+    margin:20px;
+}
+#survey-form{
+    background-color:#5D6773;
+    color:white;
+    padding:15px;
+    max-width:600px;
+    width:calc(100vw-30px);
+    margin:20px auto;
+}
+label, select, textarea{
+    display:block;
+}
+#survey-form > *, select{
+    margin:10px 0;
+}
+button{
+    padding:5px;
+    background-color:#8499B3;
+    color: black;
+    font-weight:bold;
+}
+header{
+    background-color:#483F2E;
+    margin:0 0 15px 0;
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+}
+header img{
+    height:100px;
+}
+a{
+    color:white;
+    text-decoration:none;
+}
